@@ -1,0 +1,41 @@
+import java.util.Scanner;
+import java.lang.*;
+
+public class exp {
+    public static void main(String[] args) {
+        int x = 5;
+        // int y = x++;
+        int z = ++x;
+        char c = "A";
+        c++;
+        System.out.println(x);
+        // System.out.println(y);
+        System.out.println(c);
+        System.out.println(z);
+        int x = 5,y = 4,z;
+        z = 2*x++ + 3 * ++x;
+        float a = 3.5f;
+        a++;
+        char c = 'A';
+        c++;
+        
+        System.out.println(c);
+        
+        byte b = 5;
+        b = b+1;
+        System.out.println(b);
+        System.out.println(a);
+        
+        BITWISE OPERATIONS:
+        int x = 10,y=6,z;
+        // z = x&y;
+        // z = x|y;
+        z = x^y;
+        System.out.println(z);
+        
+       int x = 10,z;
+       z = ~x;
+        System.out.println(x);
+    }
+    
+}
